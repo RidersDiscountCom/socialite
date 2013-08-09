@@ -12,7 +12,7 @@ class PaypalProvider extends OAuthTwoProvider {
 	 *
 	 * @var string
 	 */
-	protected $scopeDelimiter = ',';
+	protected $scopeDelimiter = ' ';
 
 	/**
 	 * Get the auth end-point URL for a provider.
