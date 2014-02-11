@@ -54,7 +54,7 @@ class TestProvider extends OAuthTwoProvider {
 			'id' => 42,
 			'email' => 'john.doe@example.com',
 			'firstname' => 'John',
-			'lastname' => 'Jane',
+			'lastname' => 'Doe',
 		]);
 	}
 
