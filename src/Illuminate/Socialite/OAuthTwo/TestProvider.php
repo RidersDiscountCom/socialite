@@ -60,4 +60,8 @@ class TestProvider extends OAuthTwoProvider {
 	{
 		return $this->createAccessToken(['access_token' => 'deadbeefbabe']);
 	}
+
+	public function getAuthUrl($callbackUrl, array $options = array()) {
+		return $callbackUrl . '?code=foobar';
+	}
 }
