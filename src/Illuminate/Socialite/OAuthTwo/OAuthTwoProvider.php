@@ -482,7 +482,7 @@ abstract class OAuthTwoProvider {
 	 * @param  mixed  $scope
 	 * @return void
 	 */
-	public function setScopeDelimiter($scope)
+	public function setScopeDelimiter($scopeDelimiter)
 	{
 		$this->scopeDelimiter = $scopeDelimiter;
 	}
