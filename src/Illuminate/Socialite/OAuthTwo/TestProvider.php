@@ -2,7 +2,9 @@
 
 use Guzzle\Http\ClientInterface;
 use Guzzle\Http\Message\Response;
+use Illuminate\Socialite\UserData;
 use Symfony\Component\HttpFoundation\Request;
+use Guzzle\Http\Exception\ClientErrorResponseException;
 
 class TestProvider extends OAuthTwoProvider {
 
